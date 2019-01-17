@@ -5,6 +5,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.Date;
 
+@RestController
 public class HelloController {
     @RequestMapping("/")
     public String sayHello(){
